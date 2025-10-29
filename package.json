@@ -1,0 +1,16 @@
+{
+  "name": "airona",
+  "version": "1.0.0",
+  "description": "Simple Discord bot built with discord.js",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
