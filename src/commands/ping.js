@@ -3,9 +3,8 @@
 export default {
   data: new SlashCommandBuilder()
     .setName('ping')
-    .setDescription('Odpoví pong!'),
-
+    .setDescription('Zkontroluje latenci bota.'),
   async execute(interaction) {
-    await interaction.reply('🏓 Pong!');
+    await interaction.reply(`🏓 Pong! Latence: ${interaction.client.ws.ping} ms`);
   },
 };
